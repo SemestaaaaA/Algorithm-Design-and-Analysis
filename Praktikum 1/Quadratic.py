@@ -13,6 +13,7 @@ start_time = time.perf_counter()
 result = quadratic_time(arr)
 end_time = time.perf_counter()
 
-print(f"Hasil Perhitungan: {arr} Panjang {len(result)}")
+print(f"Hasil Perhitungan: {arr} dengan Panjang {len(result)}")
 execution_time = end_time - start_time
 print(f"Execution time: {execution_time:.10f} seconds")
+

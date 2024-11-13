@@ -14,3 +14,4 @@ end_time = time.perf_counter()
 print(f"Hasil fib({n}) : {result}")
 execution_time = end_time - start_time
 print(f"Execution time: {execution_time:.10f} seconds")
+
